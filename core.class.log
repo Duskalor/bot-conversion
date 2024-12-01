@@ -1,0 +1,147 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0BD1871411503683A03',
+    participant: undefined
+  },
+  messageTimestamp: 1732847592,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'hola',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a62bd946-c875-4c4a-9837-b67d5fa63e8c',
+  keyword: 'key_125f8432-cf03-455d-aec6-c32e33bdc22d',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '870fd000a7d4e044cef7fe1acda7e599'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_05b83765-991c-49d8-8aa2-8e532e682b28',
+  keyword: 'ans_a62bd946-c875-4c4a-9837-b67d5fa63e8c',
+  answer: 'te comparto los siguientes comandos para que puedas interactuar conmigo :\n' +
+    '👉 *cambio* para realizar conversión de moneda de SOLES A USD\n' +
+    '👉 *productos* para ver lista de Deltron',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0b161e201b6893f28b39c55426150142'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0226AB64FB6DCBC7B21',
+    participant: undefined
+  },
+  messageTimestamp: 1732847594,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: 'productos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'productos',
+  from: '51986154999'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6928c383-b9aa-475f-9233-9c157ada5ce1',
+  keyword: 'key_6fc9429c-605c-45e3-9aa1-b2aa84d10f41',
+  answer: 'Contáctanos para más\n' +
+    '👇 Lista de productos :\n' +
+    ' 1.- Laptop\n' +
+    ' 2.- Disco\n' +
+    ' 3.- Procesador\n' +
+    ' 4.- Monitores\n' +
+    ' 5.- Placa madre\n' +
+    ' 6.- Memoria ram',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '2eab00146bef444c8f82b789f13cd9e5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02B718B9E8616975849',
+    participant: undefined
+  },
+  messageTimestamp: 1732847597,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '10',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '10',
+  from: '51986154999'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51986154999@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB062454D9E93FFA2AB72',
+    participant: undefined
+  },
+  messageTimestamp: 1732847599,
+  pushName: 'Paul Cruz',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '51986154999'
+}

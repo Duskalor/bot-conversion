@@ -16,13 +16,16 @@
     "@bot-whatsapp/portal": "latest",
     "@bot-whatsapp/provider": "latest",
     "@whiskeysockets/baileys": "6.5.0",
+    "axios": "^1.7.8",
     "cache-manager": "5.2.4",
     "mongoose": "^8.8.3",
     "wa-sticker-formatter": "4.4.4"
   },
   "devDependencies": {
     "eslint": "^8.52.0",
-    "eslint-plugin-bot-whatsapp": "latest"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-bot-whatsapp": "latest",
+    "standard": "^17.1.2"
   },
   "author": "",
   "license": "ISC"

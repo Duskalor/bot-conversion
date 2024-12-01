@@ -1,15 +1,17 @@
-const url = 'https://odoo.samicapital.site/v1/controller/obtener/tipo/cambio';
-const cookies = 'session_id=98918961da706bab42b009747357a6bdd6f3c10d';
+const axios = require('axios');
 
-const cambio = async (cantidad_moneda) => {
+const URL = process.env.URL_API;
+const cookies = `session_id=${process.env.ID_API}`;
+
+const getCambio = async (cantidadMoneda) => {
   const data = {
     params: {
       moneda_base: 'USD',
       moneda_objetivo: 'PEN',
-      monto: cantidad_moneda,
+      monto: Number(cantidadMoneda),
     },
   };
-  const { data: newData } = await axios.post(url, data, {
+  const { data: newData } = await axios.post(URL, data, {
     headers: {
       'Content-Type': 'application/json',
       Cookie: cookies,
@@ -17,3 +19,5 @@ const cambio = async (cantidad_moneda) => {
   });
   return newData.result;
 };
+
+module.exports = { getCambio };
